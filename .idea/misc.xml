@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/ribbon-client-serviceconfig/pom.xml" />
         <option value="$PROJECT_DIR$/feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-peer/pom.xml" />
+        <option value="$PROJECT_DIR$/user-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/user-hystrix-feign/pom.xml" />
       </list>
     </option>
   </component>
