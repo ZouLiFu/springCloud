@@ -190,7 +190,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="216" />
     <option name="y" value="17" />
     <option name="width" value="1346" />
@@ -488,7 +488,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525747208633</updated>
-      <workItem from="1525747215014" duration="71950000" />
+      <workItem from="1525747215014" duration="72547000" />
     </task>
     <task id="LOCAL-00001" summary="springcould 负载学习笔记">
       <created>1526002488405</created>
@@ -508,10 +508,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71950000" />
+    <option name="totallyTimeSpent" value="72547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
