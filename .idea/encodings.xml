@@ -4,13 +4,20 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client/src/main/resources/bootstrap.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-peer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-peer/src/main/resources/application-peer1.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-peer/src/main/resources/application-peer2.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-peer/src/main/resources/application-peer3.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-user/src/main/resources/bootstrap.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-client/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-client-serviceconfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-client-serviceconfig/src/main/resources/application.yml" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

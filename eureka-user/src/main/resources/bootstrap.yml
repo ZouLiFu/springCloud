@@ -12,10 +12,10 @@ server:
 
 eureka:
   client:
-   #register-with-eureka: false #\u8868\u793A\u662F\u5426\u6CE8\u518CEureka\u670D\u52A1\u5668,\u56E0\u4E3A\u81EA\u8EAB\u4F5C\u4E3A\u670D\u52A1\u6CE8\u518C\u4E2D\u5FC3\uFF0C\u6240\u4EE5\u4E3Afalse
-   #fetch-registry: false #\u662F\u5426\u4ECEeureka\u4E0A\u83B7\u53D6\u6CE8\u518C\u4FE1\u606F
+   #register-with-eureka: false #表示是否注册Eureka服务器,因为自身作为服务注册中心，所以为false
+   #fetch-registry: false #是否从eureka上获取注册信息
    serviceUrl:
-        defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/   #\u96C6\u7FA4\u7684\u65F6\u5019\u6700\u597D\u591A\u914D\u51E0\u4E2A\u8282\u70B9
+        defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/   #集群的时候最好多配置几个节点
        #defaultZone: http://localhost:8761/eureka/
        #defaultZone: http://root:123456@localhost:8761/eureka/
   instance:

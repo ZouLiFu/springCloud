@@ -6,12 +6,12 @@ server:
 
 eureka:
   client:
-    #enabled: true #\u5F00\u542F\u8BA4\u8BC1
+    #enabled: true #开启认证
     serviceUrl:
            defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-#feign\u65E5\u5FD7\u914D\u7F6E     DEBUG
+#feign日志配置     DEBUG
 logging:
   level:
      com.lywx.feignclient.feign.UserFeignClient: DEBUG
