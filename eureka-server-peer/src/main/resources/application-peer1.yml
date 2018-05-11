@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: 8761 #端口号
 spring:
   profiles: peer1
 eureka:
