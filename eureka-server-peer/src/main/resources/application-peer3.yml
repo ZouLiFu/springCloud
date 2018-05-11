@@ -7,7 +7,5 @@ eureka:
     hostname: peer3
     prefer-ip-address: true
   client:
-    #register-with-eureka: false #设置不将自己注册的Eureka服务器
-    #fetch-registry: false #如果是单点就设置为false
     serviceUrl:
       defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
