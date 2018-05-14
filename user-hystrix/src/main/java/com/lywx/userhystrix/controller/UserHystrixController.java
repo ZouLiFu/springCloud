@@ -20,7 +20,7 @@ public class UserHystrixController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/user/{userId}")
+    @GetMapping("/userId/{userId}")
     @HystrixCommand(fallbackMethod = "findByIdFallback")
     public User findById(@PathVariable Long userId){
         return this.restTemplate.getForObject("http://user-service-common/userId/" + userId,User.class);

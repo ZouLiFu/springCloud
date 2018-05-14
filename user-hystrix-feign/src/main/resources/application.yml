@@ -15,3 +15,13 @@ eureka:
 #logging:
   #level:
      #com.lywx.feignclient.feign.UserFeignClient: DEBUG
+feign:   #Finchley.RC1版本需要配置开启hystrix
+  hystrix:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+#management.endpoints.web.exposure.include这个是用来暴露 endpoints 的。
+#由于 endpoints 中会包含很多敏感信息，除了 health 和 info 两个支持 web 访问外，其他的默认不支持 web 访问

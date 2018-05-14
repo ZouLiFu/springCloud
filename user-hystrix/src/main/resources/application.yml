@@ -5,7 +5,7 @@ server:
   port: 8010
 eureka:
   client:
-  serviceUrl:
-          defaultZone: http://peer1:8761/eureka/
+      serviceUrl:
+        defaultZone: http://peer1:8761/eureka/
   instance:
       prefer-ip-address: true

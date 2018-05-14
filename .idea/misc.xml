@@ -15,6 +15,12 @@
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-hystrix-feign/pom.xml" />
         <option value="$PROJECT_DIR$/user-hystrix-feign-logger/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard-server/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-eureke-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine-hystrix/pom.xml" />
       </list>
     </option>
   </component>

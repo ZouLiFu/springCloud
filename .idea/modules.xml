@@ -7,10 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer/eureka-server-peer.iml" filepath="$PROJECT_DIR$/eureka-server-peer/eureka-server-peer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-user/eureka-user.iml" filepath="$PROJECT_DIR$/eureka-user/eureka-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-client/feign-client.iml" filepath="$PROJECT_DIR$/feign-client/feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard-server/hystrix-dashboard-server.iml" filepath="$PROJECT_DIR$/hystrix-dashboard-server/hystrix-dashboard-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-client/ribbon-client.iml" filepath="$PROJECT_DIR$/ribbon-client/ribbon-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-client-config/ribbon-client-config.iml" filepath="$PROJECT_DIR$/ribbon-client-config/ribbon-client-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-client-serviceconfig/ribbon-client-serviceconfig.iml" filepath="$PROJECT_DIR$/ribbon-client-serviceconfig/ribbon-client-serviceconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-hystrix/turbine-hystrix.iml" filepath="$PROJECT_DIR$/turbine-hystrix/turbine-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-hystrix/user-hystrix.iml" filepath="$PROJECT_DIR$/user-hystrix/user-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-hystrix-feign/user-hystrix-feign.iml" filepath="$PROJECT_DIR$/user-hystrix-feign/user-hystrix-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-hystrix-feign-logger/user-hystrix-feign-logger.iml" filepath="$PROJECT_DIR$/user-hystrix-feign-logger/user-hystrix-feign-logger.iml" />

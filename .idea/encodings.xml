@@ -3,7 +3,6 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client/src/main/resources/bootstrap.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-peer" charset="UTF-8" />
@@ -15,9 +14,12 @@
     <file url="file://$PROJECT_DIR$/eureka-user/src/main/resources/bootstrap.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-client/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-client-serviceconfig" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon-client-serviceconfig/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine-hystrix/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-hystrix-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-hystrix-feign-logger" charset="UTF-8" />

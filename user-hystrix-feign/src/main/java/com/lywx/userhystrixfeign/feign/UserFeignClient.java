@@ -1,10 +1,9 @@
 package com.lywx.userhystrixfeign.feign;
 
-import com.lywx.config.Configuration1;
 import com.lywx.userhystrixfeign.entity.User;
-import feign.Param;
-import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 
 /**
@@ -26,9 +25,9 @@ public interface UserFeignClient {
  * @Description:声明访问服务的接口第二种自定义
  * @date: 2018/5/10 11:08
  */
-@FeignClient(name = "user-service-common",configuration = Configuration1.class,fallback = HiHystrixFallback.class)
+@FeignClient(name = "user-service-common",fallback = HiHystrixFallback.class)
 public interface UserFeignClient {
-    @RequestLine("GET /userId/{userId}")
-    public User findById(@Param("userId") Long userId);
+    @GetMapping("/userId/{userId}")
+    public User findById(@RequestParam(value = "userId") Long userId);
 
 }
