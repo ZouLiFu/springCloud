@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-hystrix/user-hystrix.iml" filepath="$PROJECT_DIR$/user-hystrix/user-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-hystrix-feign/user-hystrix-feign.iml" filepath="$PROJECT_DIR$/user-hystrix-feign/user-hystrix-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-hystrix-feign-logger/user-hystrix-feign-logger.iml" filepath="$PROJECT_DIR$/user-hystrix-feign-logger/user-hystrix-feign-logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
     </modules>
   </component>

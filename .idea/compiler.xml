@@ -15,6 +15,7 @@
         <module name="ribbon-client-serviceconfig" />
         <module name="user-hystrix" />
         <module name="user-hystrix-feign" />
+        <module name="user-hystrix-feign-logger" />
         <module name="user-service" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
       <module name="springcloud" target="1.8" />
       <module name="user-hystrix" target="1.8" />
       <module name="user-hystrix-feign" target="1.8" />
+      <module name="user-hystrix-feign-logger" target="1.8" />
       <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
