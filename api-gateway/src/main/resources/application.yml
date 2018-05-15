@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 14000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  ignoredServices: '*' #\u5FFD\u7565\u6240\u6709\u672A\u914D\u7F6E\u7684service\uFF0C\u6CA1\u6709\u8FDB\u884C\u914D\u7F6E\u7684\u670D\u52A1\u5C06\u4E0D\u80FD\u8FDB\u884C\u8BBF\u95EE,
+                      #\u76F4\u63A5\u8BBF\u95EEuser-service-common\u4E5F\u4E0D\u80FD\u8FDB\u884C\u8BBF\u95EE
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    hystrix-feign:   #\u81EA\u5B9A\u4E49\u8BBF\u95EE\u670D\u52A1\u540D\u79F0
+      path: /hystrix-feign/**
+      serviceId: user-hystrix-feign  #\u670D\u52A1ID
+    service-common:
+      path: /service-common/**
+      serviceId: user-service-common
