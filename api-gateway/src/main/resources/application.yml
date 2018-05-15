@@ -8,15 +8,16 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 zuul:
-  ignoredServices: '*' #\u5FFD\u7565\u6240\u6709\u672A\u914D\u7F6E\u7684service\uFF0C\u6CA1\u6709\u8FDB\u884C\u914D\u7F6E\u7684\u670D\u52A1\u5C06\u4E0D\u80FD\u8FDB\u884C\u8BBF\u95EE,
-                      #\u76F4\u63A5\u8BBF\u95EEuser-service-common\u4E5F\u4E0D\u80FD\u8FDB\u884C\u8BBF\u95EE
+  zuul:
+    ignoredServices: '*' #忽略所有未配置的service，没有进行配置的服务将不能进行访问,
+                        #直接访问user-service-common也不能进行访问
   host:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
   routes:
-    hystrix-feign:   #\u81EA\u5B9A\u4E49\u8BBF\u95EE\u670D\u52A1\u540D\u79F0
+    hystrix-feign:   #自定义服务名
       path: /hystrix-feign/**
-      serviceId: user-hystrix-feign  #\u670D\u52A1ID
+      serviceId: user-hystrix-feign  #服务serviceID
     service-common:
       path: /service-common/**
       serviceId: user-service-common
